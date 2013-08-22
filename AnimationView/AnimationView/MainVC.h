@@ -17,9 +17,11 @@
     UIView *loadV;
     UIView *imageV;
     AVAudioPlayer *player;
+    int imgNum;
 
 }
 
+@property(nonatomic,retain)NSTimer *timer;
 
 
 @end

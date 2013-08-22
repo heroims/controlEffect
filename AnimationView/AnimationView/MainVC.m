@@ -59,6 +59,8 @@
 {
     [super viewDidLoad];
     
+    imgNum=0;
+    
     arrNames=[[NSMutableArray alloc] init];
     
     loadV=[[UIView alloc] initWithFrame:self.view.bounds];
@@ -92,10 +94,11 @@
 }
 
 -(void)imageClose{
+    [_timer invalidate];
     [player stop];
 
     [imageV removeFromSuperview];
-    i=-1;
+    imgNum=-1;
 }
 
 -(void)btnPickerClick:(id)sender{
@@ -108,9 +111,9 @@
     [self presentViewController:pickerController animated:YES completion:NULL];
 
 }
-int i=0;
+
 -(void)btnPlayClick:(id)sender{
-    i=0;
+    imgNum=0;
     if (arrNames.count!=0) {
         if (player!=nil) {
             [player release];
@@ -119,18 +122,20 @@ int i=0;
         [player play];
 
         [[UIApplication sharedApplication].keyWindow addSubview:imageV];
-        [self performSelector:@selector(animationImage:) withObject:[NSString stringWithFormat:@"%d",i]];
+        [self performSelector:@selector(animationImage) withObject:[NSString stringWithFormat:@"%d",imgNum]];
 
     }
+    
+    self.timer=[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(animationImage) userInfo:nil repeats:YES];
 
 }
 #define AnimaterImageTransitionDuration       5.0f
 #define AnimatedImagesViewImageViewsBorderOffset  30
 
--(void)animationImage:(NSString*)num{
+-(void)animationImage{
 
     
-    UIImage *img=[UIImage imageWithContentsOfFile:[arrNames objectAtIndex:[num integerValue]]];
+    UIImage *img=[UIImage imageWithContentsOfFile:[arrNames objectAtIndex:imgNum]];
     
     CGSize imgSize;
     
@@ -198,7 +203,7 @@ int i=0;
             
             break;
         case 1:
-            [controlEffect controlEffect:imageV Effect:[self animationsForIndex:arc4random()%10] subEffect:[self animationsForIndex:arc4random()%4] duration:duration forKey:@"anima"];
+            [controlEffect controlEffect:imageV Effect:[self animationsForIndex:arc4random()%10] subEffect:[self subAnimationsForIndex:arc4random()%4] duration:duration forKey:@"anima"];
 
             break;
         case 2:
@@ -210,19 +215,14 @@ int i=0;
 
     [tempV release];
 
-    i++;
-    if (i==arrNames.count) {
-//        sleep(1);
-//        if (i==-1) {
-//            return;
-//        }
-//        [player stop];
-//        [imageV removeFromSuperview];
+    imgNum++;
+    if (imgNum==arrNames.count) {
+        [_timer invalidate];
+        [player stop];
+        [imageV removeFromSuperview];
 
         return;
     }
-    [self performSelector:@selector(animationImage:) withObject:[NSString stringWithFormat:@"%d",i] afterDelay:duration];
-
 }
 
 -(NSObject<EPGLTransitionViewDelegate>*)animationEPGForIndex:(NSInteger)index{
@@ -325,43 +325,40 @@ int i=0;
         case 9:
             
             return @"oglFlip";
-//        case 10:
-//            
-//            return @"rotate";
-//        case 11:
-//            
-//            return @"spewEffect";
-//        case 12:
-//            
-//            return @"rippleEffect";
-//        case 13:
-//            
-//            return @"genieEffect";
-//        case 14:
-//            
-//            return @"unGenieEffect";
-//        case 15:
-//            
-//            return @"twist";
-//        case 16:
-//            
-//            return @"tubey";
-//        case 17:
-//            
-//            return @"swirl";
-//            
-//        case 18:
-//            
-//            return @"charminUltra";
-//        case 19:
-//            
-//            return @"zoomyIn";
-//        case 20:
-//            
-//            return @"zoomyOut";
-//        case 21:
-//            
-//            return @"oglApplicationSuspend";
+        case 10:
+            
+            return @"rotate";
+        case 11:
+            
+            return @"spewEffect";
+        case 12:
+            
+            return @"genieEffect";
+        case 13:
+            
+            return @"unGenieEffect";
+        case 14:
+            
+            return @"twist";
+        case 15:
+            
+            return @"tubey";
+        case 16:
+            
+            return @"swirl";
+            
+        case 17:
+            
+            return @"charminUltra";
+        case 18:
+            
+            return @"zoomyIn";
+        case 19:
+            
+            return @"zoomyOut";
+        case 20:
+            
+            return @"oglApplicationSuspend";
         default:
             return @"";
     }

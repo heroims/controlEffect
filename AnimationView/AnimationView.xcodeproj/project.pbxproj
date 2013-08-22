@@ -17,31 +17,11 @@
 		183A2833176038730030E3E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183A2832176038730030E3E2 /* Default@2x.png */; };
 		183A2835176038730030E3E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183A2834176038730030E3E2 /* Default-568h@2x.png */; };
 		183A283D176038810030E3E2 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A283C176038810030E3E2 /* MainVC.m */; };
-		183A2841176046AF0030E3E2 /* controlEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A2840176046AF0030E3E2 /* controlEffect.m */; };
 		183A2843176046E90030E3E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183A2842176046E90030E3E2 /* QuartzCore.framework */; };
 		183A2845176046EF0030E3E2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183A2844176046EF0030E3E2 /* AssetsLibrary.framework */; };
 		183A284D1760476D0030E3E2 /* WSAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 183A284C1760476D0030E3E2 /* WSAssetPicker.Bundle */; };
 		183A284E1760477A0030E3E2 /* libWSAssetPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 183A284B1760471E0030E3E2 /* libWSAssetPicker.a */; };
-		18FDE1CC17618BF30021A930 /* Demo2Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1B917618BF30021A930 /* Demo2Transition.m */; };
-		18FDE1CD17618BF30021A930 /* Demo3Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1BB17618BF30021A930 /* Demo3Transition.m */; };
-		18FDE1CE17618BF30021A930 /* Demo4Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1BD17618BF30021A930 /* Demo4Transition.m */; };
-		18FDE1CF17618BF30021A930 /* Demo5Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1BF17618BF30021A930 /* Demo5Transition.m */; };
-		18FDE1D017618BF30021A930 /* Demo6Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1C117618BF30021A930 /* Demo6Transition.m */; };
-		18FDE1D117618BF30021A930 /* Demo7Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1C317618BF30021A930 /* Demo7Transition.m */; };
-		18FDE1D217618BF30021A930 /* Demo8Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1C517618BF30021A930 /* Demo8Transition.m */; };
-		18FDE1D317618BF30021A930 /* DemoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1C717618BF30021A930 /* DemoTransition.m */; };
-		18FDE1D417618BF30021A930 /* EPGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1C917618BF30021A930 /* EPGLTransitionView.m */; };
-		18FDE1D517618BF30021A930 /* FlipTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1CB17618BF30021A930 /* FlipTransitions.m */; };
 		18FDE1D817618DD00021A930 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDE1D717618DD00021A930 /* OpenGLES.framework */; };
-		18FDE1EA17619EE00021A930 /* ClothTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1DB17619EE00021A930 /* ClothTransition.m */; };
-		18FDE1EB17619EE00021A930 /* DoorsTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1DD17619EE00021A930 /* DoorsTransition.m */; };
-		18FDE1EC17619EE00021A930 /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1DF17619EE00021A930 /* FlipTransition.m */; };
-		18FDE1ED17619EE00021A930 /* HMGLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1E117619EE00021A930 /* HMGLTransition.m */; };
-		18FDE1EE17619EE00021A930 /* HMGLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1E317619EE00021A930 /* HMGLTransitionManager.m */; };
-		18FDE1EF17619EE00021A930 /* HMGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1E517619EE00021A930 /* HMGLTransitionView.m */; };
-		18FDE1F017619EE00021A930 /* RotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1E717619EE00021A930 /* RotateTransition.m */; };
-		18FDE1F117619EE00021A930 /* Switch3DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDE1E917619EE00021A930 /* Switch3DTransition.m */; };
-		18FDE1F91761C4DC0021A930 /* table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FDE1F81761C4DC0021A930 /* table.jpg */; };
 		18FDE2001761D0960021A930 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDE1FF1761D0960021A930 /* AVFoundation.framework */; };
 		18FDE20A1761D20D0021A930 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18FDE2021761D20D0021A930 /* 1.mp3 */; };
 		18FDE20B1761D20D0021A930 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18FDE2031761D20D0021A930 /* 2.mp3 */; };
@@ -51,6 +31,27 @@
 		18FDE20F1761D20D0021A930 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18FDE2071761D20D0021A930 /* 6.mp3 */; };
 		18FDE2101761D20D0021A930 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18FDE2081761D20D0021A930 /* 7.mp3 */; };
 		18FDE2111761D20D0021A930 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18FDE2091761D20D0021A930 /* 8.mp3 */; };
+		D82A954117C674B800CD9DCD /* controlEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A951717C674B800CD9DCD /* controlEffect.m */; };
+		D82A954217C674B800CD9DCD /* Demo2Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A951A17C674B800CD9DCD /* Demo2Transition.m */; };
+		D82A954317C674B800CD9DCD /* Demo3Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A951C17C674B800CD9DCD /* Demo3Transition.m */; };
+		D82A954417C674B800CD9DCD /* Demo4Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A951E17C674B800CD9DCD /* Demo4Transition.m */; };
+		D82A954517C674B800CD9DCD /* Demo5Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952017C674B800CD9DCD /* Demo5Transition.m */; };
+		D82A954617C674B800CD9DCD /* Demo6Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952217C674B800CD9DCD /* Demo6Transition.m */; };
+		D82A954717C674B800CD9DCD /* Demo7Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952417C674B800CD9DCD /* Demo7Transition.m */; };
+		D82A954817C674B800CD9DCD /* Demo8Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952617C674B800CD9DCD /* Demo8Transition.m */; };
+		D82A954917C674B800CD9DCD /* DemoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952817C674B800CD9DCD /* DemoTransition.m */; };
+		D82A954A17C674B800CD9DCD /* EPGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952A17C674B800CD9DCD /* EPGLTransitionView.m */; };
+		D82A954B17C674B800CD9DCD /* FlipTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A952C17C674B800CD9DCD /* FlipTransitions.m */; };
+		D82A954C17C674B800CD9DCD /* table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82A952D17C674B800CD9DCD /* table.jpg */; };
+		D82A954D17C674B800CD9DCD /* ClothTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953017C674B800CD9DCD /* ClothTransition.m */; };
+		D82A954E17C674B800CD9DCD /* DoorsTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953217C674B800CD9DCD /* DoorsTransition.m */; };
+		D82A954F17C674B800CD9DCD /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953417C674B800CD9DCD /* FlipTransition.m */; };
+		D82A955017C674B800CD9DCD /* HMGLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953617C674B800CD9DCD /* HMGLTransition.m */; };
+		D82A955117C674B800CD9DCD /* HMGLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953817C674B800CD9DCD /* HMGLTransitionManager.m */; };
+		D82A955217C674B800CD9DCD /* HMGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953A17C674B800CD9DCD /* HMGLTransitionView.m */; };
+		D82A955317C674B800CD9DCD /* PatchTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953C17C674B800CD9DCD /* PatchTransition.m */; };
+		D82A955417C674B800CD9DCD /* RotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A953E17C674B800CD9DCD /* RotateTransition.m */; };
+		D82A955517C674B800CD9DCD /* Switch3DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D82A954017C674B800CD9DCD /* Switch3DTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,50 +80,11 @@
 		183A2834176038730030E3E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		183A283B176038810030E3E2 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
 		183A283C176038810030E3E2 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
-		183A283F176046AF0030E3E2 /* controlEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controlEffect.h; sourceTree = "<group>"; };
-		183A2840176046AF0030E3E2 /* controlEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = controlEffect.m; sourceTree = "<group>"; };
 		183A2842176046E90030E3E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		183A2844176046EF0030E3E2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		183A28461760471E0030E3E2 /* WSAssetPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WSAssetPicker.xcodeproj; path = WSAssetPicker/WSAssetPicker.xcodeproj; sourceTree = "<group>"; };
 		183A284C1760476D0030E3E2 /* WSAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WSAssetPicker.Bundle; path = WSAssetPicker/WSAssetPicker/WSAssetPicker.Bundle; sourceTree = "<group>"; };
-		18FDE1B817618BF30021A930 /* Demo2Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2Transition.h; sourceTree = "<group>"; };
-		18FDE1B917618BF30021A930 /* Demo2Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2Transition.m; sourceTree = "<group>"; };
-		18FDE1BA17618BF30021A930 /* Demo3Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3Transition.h; sourceTree = "<group>"; };
-		18FDE1BB17618BF30021A930 /* Demo3Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3Transition.m; sourceTree = "<group>"; };
-		18FDE1BC17618BF30021A930 /* Demo4Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Transition.h; sourceTree = "<group>"; };
-		18FDE1BD17618BF30021A930 /* Demo4Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4Transition.m; sourceTree = "<group>"; };
-		18FDE1BE17618BF30021A930 /* Demo5Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5Transition.h; sourceTree = "<group>"; };
-		18FDE1BF17618BF30021A930 /* Demo5Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5Transition.m; sourceTree = "<group>"; };
-		18FDE1C017618BF30021A930 /* Demo6Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6Transition.h; sourceTree = "<group>"; };
-		18FDE1C117618BF30021A930 /* Demo6Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6Transition.m; sourceTree = "<group>"; };
-		18FDE1C217618BF30021A930 /* Demo7Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo7Transition.h; sourceTree = "<group>"; };
-		18FDE1C317618BF30021A930 /* Demo7Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo7Transition.m; sourceTree = "<group>"; };
-		18FDE1C417618BF30021A930 /* Demo8Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8Transition.h; sourceTree = "<group>"; };
-		18FDE1C517618BF30021A930 /* Demo8Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8Transition.m; sourceTree = "<group>"; };
-		18FDE1C617618BF30021A930 /* DemoTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTransition.h; sourceTree = "<group>"; };
-		18FDE1C717618BF30021A930 /* DemoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTransition.m; sourceTree = "<group>"; };
-		18FDE1C817618BF30021A930 /* EPGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPGLTransitionView.h; sourceTree = "<group>"; };
-		18FDE1C917618BF30021A930 /* EPGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPGLTransitionView.m; sourceTree = "<group>"; };
-		18FDE1CA17618BF30021A930 /* FlipTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransitions.h; sourceTree = "<group>"; };
-		18FDE1CB17618BF30021A930 /* FlipTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransitions.m; sourceTree = "<group>"; };
 		18FDE1D717618DD00021A930 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		18FDE1DA17619EE00021A930 /* ClothTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTransition.h; sourceTree = "<group>"; };
-		18FDE1DB17619EE00021A930 /* ClothTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTransition.m; sourceTree = "<group>"; };
-		18FDE1DC17619EE00021A930 /* DoorsTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorsTransition.h; sourceTree = "<group>"; };
-		18FDE1DD17619EE00021A930 /* DoorsTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorsTransition.m; sourceTree = "<group>"; };
-		18FDE1DE17619EE00021A930 /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransition.h; sourceTree = "<group>"; };
-		18FDE1DF17619EE00021A930 /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
-		18FDE1E017619EE00021A930 /* HMGLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransition.h; sourceTree = "<group>"; };
-		18FDE1E117619EE00021A930 /* HMGLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransition.m; sourceTree = "<group>"; };
-		18FDE1E217619EE00021A930 /* HMGLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionManager.h; sourceTree = "<group>"; };
-		18FDE1E317619EE00021A930 /* HMGLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionManager.m; sourceTree = "<group>"; };
-		18FDE1E417619EE00021A930 /* HMGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionView.h; sourceTree = "<group>"; };
-		18FDE1E517619EE00021A930 /* HMGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionView.m; sourceTree = "<group>"; };
-		18FDE1E617619EE00021A930 /* RotateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateTransition.h; sourceTree = "<group>"; };
-		18FDE1E717619EE00021A930 /* RotateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateTransition.m; sourceTree = "<group>"; };
-		18FDE1E817619EE00021A930 /* Switch3DTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch3DTransition.h; sourceTree = "<group>"; };
-		18FDE1E917619EE00021A930 /* Switch3DTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch3DTransition.m; sourceTree = "<group>"; };
-		18FDE1F81761C4DC0021A930 /* table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table.jpg; sourceTree = "<group>"; };
 		18FDE1FF1761D0960021A930 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18FDE2021761D20D0021A930 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 		18FDE2031761D20D0021A930 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
@@ -132,6 +94,47 @@
 		18FDE2071761D20D0021A930 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		18FDE2081761D20D0021A930 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
 		18FDE2091761D20D0021A930 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		D82A951617C674B800CD9DCD /* controlEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controlEffect.h; sourceTree = "<group>"; };
+		D82A951717C674B800CD9DCD /* controlEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = controlEffect.m; sourceTree = "<group>"; };
+		D82A951917C674B800CD9DCD /* Demo2Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2Transition.h; sourceTree = "<group>"; };
+		D82A951A17C674B800CD9DCD /* Demo2Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2Transition.m; sourceTree = "<group>"; };
+		D82A951B17C674B800CD9DCD /* Demo3Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3Transition.h; sourceTree = "<group>"; };
+		D82A951C17C674B800CD9DCD /* Demo3Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3Transition.m; sourceTree = "<group>"; };
+		D82A951D17C674B800CD9DCD /* Demo4Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4Transition.h; sourceTree = "<group>"; };
+		D82A951E17C674B800CD9DCD /* Demo4Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4Transition.m; sourceTree = "<group>"; };
+		D82A951F17C674B800CD9DCD /* Demo5Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5Transition.h; sourceTree = "<group>"; };
+		D82A952017C674B800CD9DCD /* Demo5Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5Transition.m; sourceTree = "<group>"; };
+		D82A952117C674B800CD9DCD /* Demo6Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6Transition.h; sourceTree = "<group>"; };
+		D82A952217C674B800CD9DCD /* Demo6Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6Transition.m; sourceTree = "<group>"; };
+		D82A952317C674B800CD9DCD /* Demo7Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo7Transition.h; sourceTree = "<group>"; };
+		D82A952417C674B800CD9DCD /* Demo7Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo7Transition.m; sourceTree = "<group>"; };
+		D82A952517C674B800CD9DCD /* Demo8Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8Transition.h; sourceTree = "<group>"; };
+		D82A952617C674B800CD9DCD /* Demo8Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8Transition.m; sourceTree = "<group>"; };
+		D82A952717C674B800CD9DCD /* DemoTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTransition.h; sourceTree = "<group>"; };
+		D82A952817C674B800CD9DCD /* DemoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTransition.m; sourceTree = "<group>"; };
+		D82A952917C674B800CD9DCD /* EPGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPGLTransitionView.h; sourceTree = "<group>"; };
+		D82A952A17C674B800CD9DCD /* EPGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPGLTransitionView.m; sourceTree = "<group>"; };
+		D82A952B17C674B800CD9DCD /* FlipTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransitions.h; sourceTree = "<group>"; };
+		D82A952C17C674B800CD9DCD /* FlipTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransitions.m; sourceTree = "<group>"; };
+		D82A952D17C674B800CD9DCD /* table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table.jpg; sourceTree = "<group>"; };
+		D82A952F17C674B800CD9DCD /* ClothTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothTransition.h; sourceTree = "<group>"; };
+		D82A953017C674B800CD9DCD /* ClothTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothTransition.m; sourceTree = "<group>"; };
+		D82A953117C674B800CD9DCD /* DoorsTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorsTransition.h; sourceTree = "<group>"; };
+		D82A953217C674B800CD9DCD /* DoorsTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorsTransition.m; sourceTree = "<group>"; };
+		D82A953317C674B800CD9DCD /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransition.h; sourceTree = "<group>"; };
+		D82A953417C674B800CD9DCD /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
+		D82A953517C674B800CD9DCD /* HMGLTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransition.h; sourceTree = "<group>"; };
+		D82A953617C674B800CD9DCD /* HMGLTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransition.m; sourceTree = "<group>"; };
+		D82A953717C674B800CD9DCD /* HMGLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionManager.h; sourceTree = "<group>"; };
+		D82A953817C674B800CD9DCD /* HMGLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionManager.m; sourceTree = "<group>"; };
+		D82A953917C674B800CD9DCD /* HMGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitionView.h; sourceTree = "<group>"; };
+		D82A953A17C674B800CD9DCD /* HMGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGLTransitionView.m; sourceTree = "<group>"; };
+		D82A953B17C674B800CD9DCD /* PatchTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchTransition.h; sourceTree = "<group>"; };
+		D82A953C17C674B800CD9DCD /* PatchTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchTransition.m; sourceTree = "<group>"; };
+		D82A953D17C674B800CD9DCD /* RotateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateTransition.h; sourceTree = "<group>"; };
+		D82A953E17C674B800CD9DCD /* RotateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateTransition.m; sourceTree = "<group>"; };
+		D82A953F17C674B800CD9DCD /* Switch3DTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Switch3DTransition.h; sourceTree = "<group>"; };
+		D82A954017C674B800CD9DCD /* Switch3DTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Switch3DTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,12 +190,10 @@
 		183A2824176038730030E3E2 /* AnimationView */ = {
 			isa = PBXGroup;
 			children = (
+				D82A951517C674B800CD9DCD /* lib */,
 				183A282D176038730030E3E2 /* AppDelegate.h */,
 				183A282E176038730030E3E2 /* AppDelegate.m */,
 				18FDE2011761D20C0021A930 /* Music */,
-				183A283E176046AF0030E3E2 /* controlEffect */,
-				18FDE1D917619EE00021A930 /* HMGLTransitions */,
-				18FDE1B717618BF30021A930 /* src */,
 				183A283B176038810030E3E2 /* MainVC.h */,
 				183A283C176038810030E3E2 /* MainVC.m */,
 				183A28461760471E0030E3E2 /* WSAssetPicker.xcodeproj */,
@@ -216,72 +217,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		183A283E176046AF0030E3E2 /* controlEffect */ = {
-			isa = PBXGroup;
-			children = (
-				183A283F176046AF0030E3E2 /* controlEffect.h */,
-				183A2840176046AF0030E3E2 /* controlEffect.m */,
-			);
-			path = controlEffect;
-			sourceTree = "<group>";
-		};
 		183A28471760471E0030E3E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				183A284B1760471E0030E3E2 /* libWSAssetPicker.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		18FDE1B717618BF30021A930 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				18FDE1B817618BF30021A930 /* Demo2Transition.h */,
-				18FDE1B917618BF30021A930 /* Demo2Transition.m */,
-				18FDE1BA17618BF30021A930 /* Demo3Transition.h */,
-				18FDE1BB17618BF30021A930 /* Demo3Transition.m */,
-				18FDE1BC17618BF30021A930 /* Demo4Transition.h */,
-				18FDE1BD17618BF30021A930 /* Demo4Transition.m */,
-				18FDE1C017618BF30021A930 /* Demo6Transition.h */,
-				18FDE1C117618BF30021A930 /* Demo6Transition.m */,
-				18FDE1C217618BF30021A930 /* Demo7Transition.h */,
-				18FDE1C317618BF30021A930 /* Demo7Transition.m */,
-				18FDE1C417618BF30021A930 /* Demo8Transition.h */,
-				18FDE1C517618BF30021A930 /* Demo8Transition.m */,
-				18FDE1BE17618BF30021A930 /* Demo5Transition.h */,
-				18FDE1BF17618BF30021A930 /* Demo5Transition.m */,
-				18FDE1C617618BF30021A930 /* DemoTransition.h */,
-				18FDE1C717618BF30021A930 /* DemoTransition.m */,
-				18FDE1C817618BF30021A930 /* EPGLTransitionView.h */,
-				18FDE1C917618BF30021A930 /* EPGLTransitionView.m */,
-				18FDE1F81761C4DC0021A930 /* table.jpg */,
-				18FDE1CA17618BF30021A930 /* FlipTransitions.h */,
-				18FDE1CB17618BF30021A930 /* FlipTransitions.m */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		18FDE1D917619EE00021A930 /* HMGLTransitions */ = {
-			isa = PBXGroup;
-			children = (
-				18FDE1DA17619EE00021A930 /* ClothTransition.h */,
-				18FDE1DB17619EE00021A930 /* ClothTransition.m */,
-				18FDE1DC17619EE00021A930 /* DoorsTransition.h */,
-				18FDE1DD17619EE00021A930 /* DoorsTransition.m */,
-				18FDE1DE17619EE00021A930 /* FlipTransition.h */,
-				18FDE1DF17619EE00021A930 /* FlipTransition.m */,
-				18FDE1E017619EE00021A930 /* HMGLTransition.h */,
-				18FDE1E117619EE00021A930 /* HMGLTransition.m */,
-				18FDE1E217619EE00021A930 /* HMGLTransitionManager.h */,
-				18FDE1E317619EE00021A930 /* HMGLTransitionManager.m */,
-				18FDE1E417619EE00021A930 /* HMGLTransitionView.h */,
-				18FDE1E517619EE00021A930 /* HMGLTransitionView.m */,
-				18FDE1E617619EE00021A930 /* RotateTransition.h */,
-				18FDE1E717619EE00021A930 /* RotateTransition.m */,
-				18FDE1E817619EE00021A930 /* Switch3DTransition.h */,
-				18FDE1E917619EE00021A930 /* Switch3DTransition.m */,
-			);
-			path = HMGLTransitions;
 			sourceTree = "<group>";
 		};
 		18FDE2011761D20C0021A930 /* Music */ = {
@@ -297,6 +238,71 @@
 				18FDE2091761D20D0021A930 /* 8.mp3 */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		D82A951517C674B800CD9DCD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D82A951617C674B800CD9DCD /* controlEffect.h */,
+				D82A951717C674B800CD9DCD /* controlEffect.m */,
+				D82A951817C674B800CD9DCD /* EPGLTransition */,
+				D82A952E17C674B800CD9DCD /* HMGLTransitions */,
+			);
+			name = lib;
+			path = ../../lib;
+			sourceTree = "<group>";
+		};
+		D82A951817C674B800CD9DCD /* EPGLTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D82A951917C674B800CD9DCD /* Demo2Transition.h */,
+				D82A951A17C674B800CD9DCD /* Demo2Transition.m */,
+				D82A951B17C674B800CD9DCD /* Demo3Transition.h */,
+				D82A951C17C674B800CD9DCD /* Demo3Transition.m */,
+				D82A951D17C674B800CD9DCD /* Demo4Transition.h */,
+				D82A951E17C674B800CD9DCD /* Demo4Transition.m */,
+				D82A951F17C674B800CD9DCD /* Demo5Transition.h */,
+				D82A952017C674B800CD9DCD /* Demo5Transition.m */,
+				D82A952117C674B800CD9DCD /* Demo6Transition.h */,
+				D82A952217C674B800CD9DCD /* Demo6Transition.m */,
+				D82A952317C674B800CD9DCD /* Demo7Transition.h */,
+				D82A952417C674B800CD9DCD /* Demo7Transition.m */,
+				D82A952517C674B800CD9DCD /* Demo8Transition.h */,
+				D82A952617C674B800CD9DCD /* Demo8Transition.m */,
+				D82A952717C674B800CD9DCD /* DemoTransition.h */,
+				D82A952817C674B800CD9DCD /* DemoTransition.m */,
+				D82A952917C674B800CD9DCD /* EPGLTransitionView.h */,
+				D82A952A17C674B800CD9DCD /* EPGLTransitionView.m */,
+				D82A952B17C674B800CD9DCD /* FlipTransitions.h */,
+				D82A952C17C674B800CD9DCD /* FlipTransitions.m */,
+				D82A952D17C674B800CD9DCD /* table.jpg */,
+			);
+			path = EPGLTransition;
+			sourceTree = "<group>";
+		};
+		D82A952E17C674B800CD9DCD /* HMGLTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				D82A952F17C674B800CD9DCD /* ClothTransition.h */,
+				D82A953017C674B800CD9DCD /* ClothTransition.m */,
+				D82A953117C674B800CD9DCD /* DoorsTransition.h */,
+				D82A953217C674B800CD9DCD /* DoorsTransition.m */,
+				D82A953317C674B800CD9DCD /* FlipTransition.h */,
+				D82A953417C674B800CD9DCD /* FlipTransition.m */,
+				D82A953517C674B800CD9DCD /* HMGLTransition.h */,
+				D82A953617C674B800CD9DCD /* HMGLTransition.m */,
+				D82A953717C674B800CD9DCD /* HMGLTransitionManager.h */,
+				D82A953817C674B800CD9DCD /* HMGLTransitionManager.m */,
+				D82A953917C674B800CD9DCD /* HMGLTransitionView.h */,
+				D82A953A17C674B800CD9DCD /* HMGLTransitionView.m */,
+				D82A953B17C674B800CD9DCD /* PatchTransition.h */,
+				D82A953C17C674B800CD9DCD /* PatchTransition.m */,
+				D82A953D17C674B800CD9DCD /* RotateTransition.h */,
+				D82A953E17C674B800CD9DCD /* RotateTransition.m */,
+				D82A953F17C674B800CD9DCD /* Switch3DTransition.h */,
+				D82A954017C674B800CD9DCD /* Switch3DTransition.m */,
+			);
+			path = HMGLTransitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +377,6 @@
 				183A2831176038730030E3E2 /* Default.png in Resources */,
 				183A2833176038730030E3E2 /* Default@2x.png in Resources */,
 				183A2835176038730030E3E2 /* Default-568h@2x.png in Resources */,
-				18FDE1F91761C4DC0021A930 /* table.jpg in Resources */,
 				18FDE20A1761D20D0021A930 /* 1.mp3 in Resources */,
 				18FDE20B1761D20D0021A930 /* 2.mp3 in Resources */,
 				18FDE20C1761D20D0021A930 /* 3.mp3 in Resources */,
@@ -380,6 +385,7 @@
 				18FDE20F1761D20D0021A930 /* 6.mp3 in Resources */,
 				18FDE2101761D20D0021A930 /* 7.mp3 in Resources */,
 				18FDE2111761D20D0021A930 /* 8.mp3 in Resources */,
+				D82A954C17C674B800CD9DCD /* table.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,25 +399,26 @@
 				183A282B176038730030E3E2 /* main.m in Sources */,
 				183A282F176038730030E3E2 /* AppDelegate.m in Sources */,
 				183A283D176038810030E3E2 /* MainVC.m in Sources */,
-				183A2841176046AF0030E3E2 /* controlEffect.m in Sources */,
-				18FDE1CC17618BF30021A930 /* Demo2Transition.m in Sources */,
-				18FDE1CD17618BF30021A930 /* Demo3Transition.m in Sources */,
-				18FDE1CE17618BF30021A930 /* Demo4Transition.m in Sources */,
-				18FDE1CF17618BF30021A930 /* Demo5Transition.m in Sources */,
-				18FDE1D017618BF30021A930 /* Demo6Transition.m in Sources */,
-				18FDE1D117618BF30021A930 /* Demo7Transition.m in Sources */,
-				18FDE1D217618BF30021A930 /* Demo8Transition.m in Sources */,
-				18FDE1D317618BF30021A930 /* DemoTransition.m in Sources */,
-				18FDE1D417618BF30021A930 /* EPGLTransitionView.m in Sources */,
-				18FDE1D517618BF30021A930 /* FlipTransitions.m in Sources */,
-				18FDE1EA17619EE00021A930 /* ClothTransition.m in Sources */,
-				18FDE1EB17619EE00021A930 /* DoorsTransition.m in Sources */,
-				18FDE1EC17619EE00021A930 /* FlipTransition.m in Sources */,
-				18FDE1ED17619EE00021A930 /* HMGLTransition.m in Sources */,
-				18FDE1EE17619EE00021A930 /* HMGLTransitionManager.m in Sources */,
-				18FDE1EF17619EE00021A930 /* HMGLTransitionView.m in Sources */,
-				18FDE1F017619EE00021A930 /* RotateTransition.m in Sources */,
-				18FDE1F117619EE00021A930 /* Switch3DTransition.m in Sources */,
+				D82A954117C674B800CD9DCD /* controlEffect.m in Sources */,
+				D82A954217C674B800CD9DCD /* Demo2Transition.m in Sources */,
+				D82A954317C674B800CD9DCD /* Demo3Transition.m in Sources */,
+				D82A954417C674B800CD9DCD /* Demo4Transition.m in Sources */,
+				D82A954517C674B800CD9DCD /* Demo5Transition.m in Sources */,
+				D82A954617C674B800CD9DCD /* Demo6Transition.m in Sources */,
+				D82A954717C674B800CD9DCD /* Demo7Transition.m in Sources */,
+				D82A954817C674B800CD9DCD /* Demo8Transition.m in Sources */,
+				D82A954917C674B800CD9DCD /* DemoTransition.m in Sources */,
+				D82A954A17C674B800CD9DCD /* EPGLTransitionView.m in Sources */,
+				D82A954B17C674B800CD9DCD /* FlipTransitions.m in Sources */,
+				D82A954D17C674B800CD9DCD /* ClothTransition.m in Sources */,
+				D82A954E17C674B800CD9DCD /* DoorsTransition.m in Sources */,
+				D82A954F17C674B800CD9DCD /* FlipTransition.m in Sources */,
+				D82A955017C674B800CD9DCD /* HMGLTransition.m in Sources */,
+				D82A955117C674B800CD9DCD /* HMGLTransitionManager.m in Sources */,
+				D82A955217C674B800CD9DCD /* HMGLTransitionView.m in Sources */,
+				D82A955317C674B800CD9DCD /* PatchTransition.m in Sources */,
+				D82A955417C674B800CD9DCD /* RotateTransition.m in Sources */,
+				D82A955517C674B800CD9DCD /* Switch3DTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
