@@ -1,14 +1,14 @@
 //
-//  controlEffect.m
+//  ControlEffect.m
 //  pillRemind
 //
 //  Created by hero on 12-3-30.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "controlEffect.h"
+#import "ControlEffect.h"
 
-@implementation controlEffect
+@implementation ControlEffect
 
 +(void)controlEffect:(UIView *)uiView Effect:(NSString *)typeEffect subEffect:(NSString *)subtypeEffect duration:(CFTimeInterval)duration forKey:(NSString*)key{
 	CATransition *animation = [CATransition animation];

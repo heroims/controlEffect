@@ -1,5 +1,5 @@
 //
-//  controlEffect.h
+//  ControlEffect.h
 //  pillRemind
 //
 //  Created by hero on 12-3-30.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface controlEffect : NSObject
+@interface ControlEffect : NSObject
 
 /*
  

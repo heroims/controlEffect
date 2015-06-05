@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "controlEffect.h"
+#import "ControlEffect.h"
 #import "WSAssetPicker.h"
 #import <AVFoundation/AVFoundation.h>
 @interface MainVC : UIViewController<WSAssetPickerControllerDelegate>{

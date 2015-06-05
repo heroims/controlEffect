@@ -203,7 +203,7 @@
             
             break;
         case 1:
-            [controlEffect controlEffect:imageV Effect:[self animationsForIndex:arc4random()%10] subEffect:[self subAnimationsForIndex:arc4random()%4] duration:duration forKey:@"anima"];
+            [ControlEffect controlEffect:imageV Effect:[self animationsForIndex:arc4random()%10] subEffect:[self subAnimationsForIndex:arc4random()%4] duration:duration forKey:@"anima"];
 
             break;
         case 2:
